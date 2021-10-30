@@ -1,4 +1,4 @@
-name: pre-commit
+name: 'PyTest'
 
 on:
   pull_request:
