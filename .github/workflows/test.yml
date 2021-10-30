@@ -3,6 +3,8 @@ name: pre-commit
 on:
   pull_request:
   push:
+    branches:
+      - main
 
 jobs:
   pre-commit:
@@ -40,6 +42,7 @@ jobs:
       - name: Install library
         run: poetry install --no-interaction
       #----------------------------------------------
-      # Run pre-commit
+      # Run Pytest
       #----------------------------------------------
-      - uses: pre-commit/action@v2.0.3
+      - name: Run Pytest
+        run: poetry run pytest
