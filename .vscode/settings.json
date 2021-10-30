@@ -1,0 +1,15 @@
+{
+    "[python]": {
+        "editor.formatOnSave": true
+    },
+    "python.formatting.provider": "black",
+    "python.linting.pylintEnabled": true,
+    "python.pythonPath": "/home/fbidu/.cache/pypoetry/virtualenvs/my-awesome-project-SUMSxmL5-py3.8/bin/python",
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.pytestArgs": [
+        "tests",
+        "--doctest-modules"
+    ],
+    "python.testing.pytestEnabled": true,
+    "python.testing.unittestEnabled": false
+}
